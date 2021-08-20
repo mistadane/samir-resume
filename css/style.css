@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+header {
+    width: 100%;
+    height: 50%;
+    background-color: brown;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.about {
+    width: 90%;
+    background-color: #222124;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    border-radius: 1.8rem;
+    padding: 1.3rem;
+    border: none;
+}
+
+.vector {
+    background: #fff;
+    width: 70%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 100%;
+}
+
+.prog-img {
+    font-size: 1rem;
+}
+
+.about-text {
+    margin: .5rem auto;
+}
+
+.section-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #ff6785;
+    margin: 1rem 0;
+    line-height: 1rem
+}
+
+.about-container {
+    margin: 1rem 0;
+}
+
+.about-container h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fdfdfd;
+}
+
+.about-container p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+    color: #fdfdfd;
+    line-height: 1rem;
+}
+
+.services {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.services-left-side {
+    padding: 2rem;
+}
+
+.services-left-side h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    line-height: 1.8rem;
+    color: #222124;
+    margin-bottom: 1rem;
+}
+
+.services-cards {
+    width: 100%;
+    background-color: #222124;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.service-card {
+    background: #E5E5E5;
+    width: 70%;
+    height: fit-content;
+    padding: 1.5rem;
+    border: none;
+    border-radius: .8rem;
+}
+
+.service-card img {
+    width: 3.5rem;
+    height: auto;
+    margin: .5rem 0;
+}
+
+.service-card h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #222124;
+}
+
+.service-card p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    color: #222124;
+}
+
+.contact {
+    background-color: #222124;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.contact h5 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #fdfdfd;
+    font-size: 1.3rem;
+    line-height: 1.2rem;
+    padding: 1rem;
+}
+
+.btn {
+    background-color: #ff6785;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #222124;
+    padding: 2rem;
+}
+
+footer p {
+    text-align: center;
+    color: #fdfdfd;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.3rem;
+}
+
+span {
+    color: #ff6785;
+}
